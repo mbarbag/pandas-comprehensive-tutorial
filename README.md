@@ -92,7 +92,7 @@ Download the `pandas_comprehensive_tutorial.ipynb` file. Go to [Google Colab](ht
 
 Download from [Visual Studio Code](https://code.visualstudio.com/Download)
 
-#### Step 2: Install Python
+#### Step 2: Install Python 3
 
 Download from [Python](https://www.python.org/downloads/)
 
@@ -225,18 +225,6 @@ The notebook is designed to be run cell by cell. Each section builds upon the pr
 - Handle null values explicitly
 - Use descriptive column names
 - Prefer explicit over implicit operations
-
-### Data Manipulation Patterns
-- **Split-Apply-Combine** pattern with GroupBy
-- **Conditional Logic** with `np.where()`, `np.select()`, and `pd.cut()`
-- **Data Integration** with merge and concatenate operations
-
-## ⚡ Performance Tips
-
-1. **Use `pd.cut()` instead of `apply()` for categorization** - Up to 100x faster
-2. **Prefer `np.select()` over nested `np.where()`** - Cleaner and faster
-3. **Use appropriate data types** - Can reduce memory usage by 90%
-4. **Filter before operations** - Reduce computational overhead
 
 ## 🤝 Contributing
 
