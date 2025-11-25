@@ -23,12 +23,6 @@ The tutorial uses three main datasets:
 
 All datasets are loaded directly from GitHub repositories, so no local files are required.
 
-## Prerequisites
-
-- Basic Python knowledge
-- Understanding of data structures (lists, dictionaries)
-- Familiarity with Jupyter notebooks
-
 ## Installation
 
 ### Using Google Colab
